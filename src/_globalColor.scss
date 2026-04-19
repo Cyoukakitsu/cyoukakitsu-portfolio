@@ -1,90 +1,90 @@
-/* Change colors in this file to style to your needs on a global level. 
-Certain colors are used for different and multiply types of elements. 
-For greater control over colors visit each components .scss file. */
+/* ZHAO JIAYI Portfolio — Color System
+   Style: Light minimal, warm white + navy accent */
 
 // button colors
-$buttonColor: #55198b;
-$buttonHover: #8c43ce;
-$topButtonHover: #000;
+$buttonColor: #1E3A8A;
+$buttonHover: #1D4ED8;
+$topButtonHover: #1E3A8A;
 
 // text colors light theme
-$titleColor: #000000;
-$textColor: #000000;
-$subTitle: #868e96;
-$cardSubtitle: #666666;
-$talkCardSubTitle: #7f8287;
-$blogCardTitleColor: #262626;
+$titleColor: #1A1A2E;
+$textColor: #1A1A2E;
+$subTitle: #6B7280;
+$cardSubtitle: #6B7280;
+$talkCardSubTitle: #6B7280;
+$blogCardTitleColor: #1A1A2E;
 
 // text color dark theme
-$textColorDark: #ffffff;
+$textColorDark: #F9FAFB;
 
 // toggle switch colors
-$toggleCheck: #2196f3;
-$toggleSwitchSliderBG: #ccc;
+$toggleCheck: #1E3A8A;
+$toggleSwitchSliderBG: #D1D5DB;
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: rgb(88, 96, 105);
-$githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: rgb(36, 41, 46);
-$githubProfileCardLocationTS: #ffebcd;
-$githubProfileCardBorder: #6c63ff;
+$githubRepoCardLanguageColorBG: #1E3A8A;
+$githubRepoCardColor: #374151;
+$githubRepoCardRepoCardStatsColor: #6B7280;
+$githubRepoCardRepoNameColor: #1A1A2E;
+$githubProfileCardLocationTS: #EFF6FF;
+$githubProfileCardBorder: #1E3A8A;
 
 // light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
-$lightBackground3: #f5f2f4;
-$blogCardContainerColor: #586069;
+$lightBackground1: #FAFAF8;
+$lightBackground2: #FAFAF8;
+$lightBackground3: #F1F0EC;
+$blogCardContainerColor: #374151;
+
 // dark background colors
-$darkBackground: #171c28;
+$darkBackground: #0F172A;
 
 // light theme box shadows
-$lightBoxShadowDark: rgba(0, 0, 0, 0.2);
-$lightBoxShadow: rgba(0, 0, 0, 0.1);
-$lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
+$lightBoxShadowDark: rgba(0, 0, 0, 0.12);
+$lightBoxShadow: rgba(0, 0, 0, 0.08);
+$lightBoxShadowDarker: rgba(0, 0, 0, 0.16);
 
 // dark theme box shadows
-$darkBoxShadow: #d9dbdf;
-$darkBoxShadow2: #ffffff;
+$darkBoxShadow: #CBD5E1;
+$darkBoxShadow2: #F1F5F9;
 
-// linear gradients
+// linear gradients (kept minimal — no heavy gradients)
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
+  rgba(30, 58, 138, 0.6),
+  rgba(30, 58, 138, 0.4)
 );
 $experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
+  rgba(15, 23, 42, 0.75),
+  rgba(15, 23, 42, 0.55)
 );
 
 // borders
-$progressBarBackground: rgb(243, 239, 239);
-$lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
+$progressBarBackground: #E5E7EB;
+$lightBorder1: rgba(229, 231, 235, 0.6);
+$educationCardBorder: #1E3A8A;
 
 // hovers
-$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
-$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
-$headerHoverBG: #f4f4f4;
-$contactDetailHoverTS: #b5b5b5;
+$achievementCertificateCardHoverDark: rgba(30, 58, 138, 0.1);
+$blogCardHoverSmallColor: rgba(255, 255, 255, 0.9);
+$headerHoverBG: #F1F0EC;
+$contactDetailHoverTS: #9CA3AF;
 
 // misc backgrounds
-$progressBarSpanBG: #aaa5ff;
-$iconBackground: #333;
-$appHeaderBG: #282c34;
+$progressBarSpanBG: #1E3A8A;
+$iconBackground: #1A1A2E;
+$appHeaderBG: #0F172A;
 
 // misc colors
-$skillsColor: #645beb;
-$appLink: #09d3ac;
+$skillsColor: #1E3A8A;
+$appLink: #1D4ED8;
 
 // social media icons
-$faceBook: #3b5998;
-$linkedin: #0e76a8;
-$github: #333;
-$gitlab: #fca326;
-$google: #ea4335;
-$twitter: #1da1f2;
-$medium: #000;
-$stackoverflow: #f48024;
-$instagram: #c13584;
-$kaggle: #20beff;
+$faceBook: #1877F2;
+$linkedin: #0A66C2;
+$github: #1A1A2E;
+$gitlab: #FC6D26;
+$google: #EA4335;
+$twitter: #1DA1F2;
+$medium: #1A1A2E;
+$stackoverflow: #F48024;
+$instagram: #E1306C;
+$kaggle: #20BEFF;
