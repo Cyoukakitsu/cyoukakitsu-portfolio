@@ -21,7 +21,7 @@ const greeting = {
   username: "ZHAO JIAYI",
   title: "はじめまして、ZHAO JIAYIです",
   subTitle: emoji(
-    "フロントエンドエンジニアからAI・フルスタック開発へ挑戦中 🚀 金融システム開発の経験を持ち、TypeScriptとAI技術でプロダクトを作り続けています。"
+    "ゼロからフロントエンドエンジニア、フロントエンドエンジニアからAI・フルスタック開発へ挑戦中 🚀"
   ),
   resumeLink: "",
   displayGreeting: true
@@ -40,7 +40,7 @@ const skillsSection = {
   subTitle: "フロントエンドからAI連携まで、TypeScriptを軸に幅広く開発",
   skills: [
     emoji("⚡ TypeScriptとReact / Next.jsを使ったモダンなWebアプリ開発"),
-    emoji("⚡ Claude API・Gemini AI・Groq AIを活用したAI機能の組み込み"),
+    emoji("⚡ AI Agent開発・LLM APIの活用"),
     emoji("⚡ SupabaseとVercelを活用したフルスタック開発・デプロイ")
   ],
 
@@ -56,6 +56,10 @@ const skillsSection = {
     {
       skillName: "React",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Next.js",
+      fontAwesomeClassname: "fas fa-layer-group"
     },
     {
       skillName: "Node.js",
@@ -205,18 +209,6 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/aiAgentLogo.svg"),
-      projectName: "AI Agent StudyMemo",
-      projectDesc:
-        "AIエージェント技術の学習・実験リポジトリ。Claude APIやその他のAI技術を組み合わせた実装研究。",
-      footerLink: [
-        {
-          name: "GitHub",
-          url: "https://github.com/Cyoukakitsu/AI_Agent_StudyMemo"
-        }
-      ]
-    }
   ],
   display: true
 };
