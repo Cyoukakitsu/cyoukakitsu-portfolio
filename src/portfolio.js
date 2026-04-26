@@ -99,14 +99,9 @@ const educationInfo = {
   schools: [
     {
       schoolName: "上智大学大学院",
-      logo: require("./assets/images/sophiaUniversityLogo.svg"),
-      subHeader: "経済学研究科",
-      duration: "入学〜修了",
-      desc: "経済学の理論的・実証的研究を通じて、データ分析と論理的思考力を養う。",
-      descBullets: [
-        "経済学・統計学の基礎から応用まで幅広く習得",
-        "研究を通じてデータドリブンな問題解決能力を強化"
-      ]
+      duration: "2023年4月 - 2025年3月",
+      subHeader: "経済学研究科経営学専攻",
+      desc: "実証的研究 (定量) を通じて、スタートアップ企業の資金調達の課題を研究する。"
     }
   ]
 };
@@ -162,7 +157,7 @@ const bigProjects = {
   subtitle: "TypeScriptとAIを組み合わせて作り続けているプロダクト",
   projects: [
     {
-      image: require("./assets/images/aiPortfolioManagerLogo.svg"),
+      image: "/PortfolioX.png",
       projectName: "AI Portfolio Manager",
       projectDesc:
         "リアルタイムの株・暗号資産データとAIチャットボットを統合した投資管理ダッシュボード。",
@@ -178,23 +173,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tsGymLogo.svg"),
-      projectName: "TS GYM",
-      projectDesc:
-        "Monaco Editorを搭載したTypeScript練習プラットフォーム。AIがコードをリアルタイムでレビュー・解説。",
-      footerLink: [
-        {
-          name: "デモを見る",
-          url: "https://ts-gym-46k9.vercel.app"
-        },
-        {
-          name: "GitHub",
-          url: "https://github.com/Cyoukakitsu/TS-gym"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/fireCalcLogo.svg"),
+      image: "/FIRE-Calculator.avif",
       projectName: "FIRE Calculator",
       projectDesc:
         "財務自由（FIRE）をビジュアライズする極簡でモダンなシミュレーターアプリ。",
@@ -208,7 +187,7 @@ const bigProjects = {
           url: "https://github.com/Cyoukakitsu/fire--calculator--v1.1"
         }
       ]
-    },
+    }
   ],
   display: true
 };
