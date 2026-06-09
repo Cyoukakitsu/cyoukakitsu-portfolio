@@ -36,7 +36,7 @@ const socialMediaLinks = {
 
 // Skills Section
 const skillsSection = {
-  title: "スキルセット",
+  title: "スキル",
   subTitle: "フロントエンドからAI連携まで、TypeScriptを軸に幅広く開発",
   skills: [
     emoji("⚡ TypeScriptとReact / Next.jsを使ったモダンなWebアプリ開発"),
@@ -62,16 +62,8 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-layer-group"
     },
     {
-      skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
-    },
-    {
-      skillName: "npm / pnpm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "Tailwind CSS",
@@ -118,10 +110,6 @@ const techStack = {
       Stack: "AI連携開発",
       progressPercentage: "75%"
     },
-    {
-      Stack: "バックエンド開発",
-      progressPercentage: "65%"
-    }
   ],
   displayCodersrank: false
 };
@@ -169,6 +157,18 @@ const bigProjects = {
         {
           name: "GitHub",
           url: "https://github.com/Cyoukakitsu/AI-Portfolio-Manager-Stocks-Crypto"
+        }
+      ]
+    },
+    {
+      image: "/Xdigest.png",
+      projectName: "XDigest",
+      projectDesc:
+        "X（Twitter）のタイムラインをAIが要約・整理するダイジェストツール。",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/Cyoukakitsu/XDigest"
         }
       ]
     },
